@@ -1,0 +1,14 @@
+[
+    {
+        "UpdateStageName": "Torch",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://build.torchapi.com/job/Torch/job/master/lastSuccessfulBuild/artifact/bin/torch-server.zip",
+        "UpdateSourceTarget": "./",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "UpdateSourceConditionSetting": "",
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]
