@@ -1,8 +1,10 @@
 {
-    "id": "6a636d05-f261-4e19-a60a-962caa69c0fe",
-    "authors": ["camcamhow"],
-    "origin": "https://github.com/camcamhow",
-    "url": "https://github.com/camcamhow ",
+    "id": "2a169d1e-36e4-4f89-88e8-60fb155c8ae0",
+    "authors": [
+        "camcamhow - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/camcamhow - Made with AMP Config Generator/AMPTemplates.git",
+    "url": "https://github.com/camcamhow - Made with AMP Config Generator/AMPTemplates",
     "imagefile": "",
     "prefix": "camcamhow - Made with AMP Config Generator"
 }
