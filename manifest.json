@@ -1,9 +1,8 @@
 {
-	"id": "a22aede8-1679-43a4-8362-f7d5f857a2bf",
-	"authors": ["camcamhow"],
-	"origin": "https://github.com/camcamhow/SpaceEngineersTorch.git",
-	"url": "https://github.com/camcamhow/SpaceEngineersTorch",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "6a636d05-f261-4e19-a60a-962caa69c0fe",
+    "authors": ["camcamhow"],
+    "origin": "https://github.com/camcamhow",
+    "url": "https://github.com/camcamhow ",
+    "imagefile": "",
+    "prefix": "camcamhow - Made with AMP Config Generator"
 }
