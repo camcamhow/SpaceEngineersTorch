@@ -1,14 +1,37 @@
 [
     {
-        "UpdateStageName": "Torch",
-        "UpdateSourcePlatform": "All",
+        "UpdateStageName": "Files Downloading",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://build.torchapi.com/job/Torch/job/master/lastSuccessfulBuild/artifact/bin/torch-server.zip",
         "UpdateSourceTarget": "./",
-        "UnzipUpdateSource": true,
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": "true",
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Files Extracting",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceArgs": "./torch-server.zip",
+        "UpdateSourceTarget": "./Server-Files",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionValue": "true",
         "DeleteAfterExtract": true,
-        "OneShot": true
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Starting...",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionValue": "true",
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]

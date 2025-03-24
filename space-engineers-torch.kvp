@@ -1,7 +1,7 @@
 Meta.DisplayName=Space Engineers Torch
 Meta.Description=A dedicated server for Space Engineers using the Torch framework, providing enhanced server management and plugin support.
 Meta.Arch=x86_64
-Meta.Author=camcamhow - Made with AMP Config Generator
+Meta.Author=camcamhow
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
